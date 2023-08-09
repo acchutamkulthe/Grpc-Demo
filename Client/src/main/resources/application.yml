@@ -1,0 +1,8 @@
+server:
+  port: 9090
+grpc:
+  client:
+    grpc-client:
+      address: static://localhost:8080
+      negotiationType: plainText
+
