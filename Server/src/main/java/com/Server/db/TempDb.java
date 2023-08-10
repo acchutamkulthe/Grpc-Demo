@@ -1,8 +1,7 @@
 package com.Server.db;
 
-import com.gRPC.stubs.Author;
-import com.gRPC.stubs.Book;
-
+import com.gRpc.Author;
+import com.gRpc.Book;
 import java.util.ArrayList;
 import java.util.List;
 

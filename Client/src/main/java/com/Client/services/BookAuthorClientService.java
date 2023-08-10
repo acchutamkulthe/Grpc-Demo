@@ -1,10 +1,12 @@
 package com.Client.services;
 
+
 import com.Client.db.TempDb;
-import com.gRPC.stubs.Author;
-import com.gRPC.stubs.Book;
-import com.gRPC.stubs.BookAuthorServiceGrpc;
+import com.gRpc.Author;
+import com.gRpc.Book;
+import com.gRpc.BookAuthorServiceGrpc;
 import com.google.protobuf.Descriptors;
+
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.springframework.stereotype.Service;

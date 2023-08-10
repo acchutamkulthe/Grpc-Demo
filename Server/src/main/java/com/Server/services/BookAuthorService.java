@@ -1,9 +1,9 @@
 package com.Server.services;
 
 import com.Server.db.TempDb;
-import com.gRPC.stubs.Author;
-import com.gRPC.stubs.Book;
-import com.gRPC.stubs.BookAuthorServiceGrpc;
+import com.gRpc.Author;
+import com.gRpc.Book;
+import com.gRpc.BookAuthorServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 import java.util.ArrayList;

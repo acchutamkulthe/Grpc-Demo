@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option java_multiple_files = true;
 
-package com.gRPC.stubs;
+package com.gRpc;
 
 message Book {
   int32 book_id = 1;
